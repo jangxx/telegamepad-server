@@ -1,0 +1,13 @@
+{
+    "configurations": {
+        "default": {
+            "gamepads": []
+        }
+    },
+    "options": {
+        "server": "udp",
+        "server_address": null,
+        "server_port": 20719,
+        "server_options": {}
+    }
+}

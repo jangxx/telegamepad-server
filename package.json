@@ -1,0 +1,36 @@
+{
+  "name": "telegamepad-server",
+  "version": "1.0.0",
+  "description": "Server software to allow remote computers to simulate gamepad inputs on this one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangxx/telegamepad-server.git"
+  },
+  "keywords": [
+    "remote",
+    "gamepad",
+    "xinput",
+    "vjoy",
+    "vigem",
+    "xbox",
+    "controller"
+  ],
+  "author": "Jan Scheiper <jangxx@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jangxx/telegamepad-server/issues"
+  },
+  "homepage": "https://github.com/jangxx/telegamepad-server#readme",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "merge-options": "^3.0.3"
+  },
+  "optionalDependencies": {
+    "vigemclient": "^1.1.2",
+    "vjoy": "^1.2.0"
+  }
+}
